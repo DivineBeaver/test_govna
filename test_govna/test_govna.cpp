@@ -195,7 +195,7 @@ int main() {
         fclose(temp_file);// Закрытие временного файла
     }
 
-    SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN);// Устанавливаем зеленый цвет текста
+    SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN);// Устанавливаем зеленый цвет текста (Добавленный комментарий)
     if (flag) {
         cout << endl << "============================================================================"<<endl << "Ну всё норм";
     }
